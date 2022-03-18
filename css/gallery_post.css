@@ -1,0 +1,14 @@
+/* gallery */
+#my-gallery {
+	margin-bottom: 5vw;
+}
+#my-gallery .flash-gallery-title {
+	color: #222222;
+}
+#my-gallery .flash-gallery-title span {
+	color: #0cb4ce;
+}
+#my-gallery .flash-gallery-text {
+	color: grey;
+}
+/* the-end-of-gallery */
