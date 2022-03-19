@@ -71,9 +71,9 @@
 	position: relative;
 	top: 55%;
 	width: 70%;
-	line-height: 1.5vw;
+	line-height: 1.5rem;
 	left: 0;
-	font-size: 1vw;
+	font-size: 1rem;
 	opacity: 0;
 	margin: 2vw 0 0;
 	transition: top 0.5s ease 1s, opacity 0.5s ease 1s;
@@ -101,7 +101,7 @@
 .flash-first-type-slide-link {
 	display: inline-block;
 	text-decoration: none;
-	font-size: 1vw;
+	font-size: 1rem;
 	border-radius: 1vw;
 	border: 1px solid #fafafa;
 	padding: 1vw 1.5vw;
@@ -164,8 +164,8 @@
 .flash-first-type-slide-circles-container {
 	position: absolute;
 	bottom: 5%;
-	width: 4vw;
-	left: calc(50% - 2vw);
+	width: 4rem;
+	left: calc(50% - 2rem);
 	display: -ms-flexbox;
 	-ms-flex-wrap: nowrap;
 	-ms-flex-direction: row;
@@ -178,8 +178,8 @@
 }
 .flash-first-type-slide-circle {
 	border-radius: 50%;
-	width: 1vw;
-	height: 1vw;
+	width: 1rem;
+	height: 1rem;
 	background-color: #222222;
 	transition: background-color 0.3s ease;
 	cursor: pointer;
@@ -194,8 +194,8 @@
 }
 .flash-first-type-slide-circle span {
 	display: inline-block;
-	width: 0.2vw;
-	height: 0.2vw;
+	width: 0.2rem;
+	height: 0.2rem;
 	border-radius: 50%;
 	background-color: #fafafa;
 	transition: background-color 0.3s ease;
@@ -217,18 +217,6 @@
 
 @media only screen and (max-width: 1250px) {
 
-	.flash-first-type-slide-circle {
-		width: 2vw;
-		height: 2vw;
-	}
-	.flash-first-type-slide-circle span {
-		width: 0.5vw;
-		height: 0.5vw;
-	}
-	.flash-first-type-slide-circles-container {
-		width: 8vw;
-		left: calc(50% - 4vw);
-	}
 	.flash-first-type-slide-texts-con {
 		top: 250px;
 	}
@@ -249,7 +237,19 @@
 		top: 200px;
 	}	
 
+	.flash-first-type-slide-text-con .flash-first-type-slide-text,
+	.flash-first-type-slide-link {
+		font-size: 0.5rem;
+		line-height: 0.7rem;
+	}
+
+	.flash-first-type-slide-circle {
+		width: 0.9rem;
+		height: 0.9rem;
+	}
+
 }
+
 @media only screen and (max-width: 800px) { 
 
 	.flash-first-type-slide-container {
@@ -261,18 +261,7 @@
 		height: 6vw;
 		padding: 0 2vw;
 	}
-	.flash-first-type-slide-circle {
-		width: 2.5vw;
-		height: 2.5vw;
-	}
-	.flash-first-type-slide-circle span {
-		width: 0.8vw;
-		height: 0.8vw;
-	}
-	.flash-first-type-slide-circles-container {
-		width: 10vw;
-		left: calc(50% - 5vw);
-	}
+
 }	
 
 @media only screen and (max-width: 599px) { 
@@ -282,7 +271,7 @@
 	}
 
 	.flash-first-type-slide-circles-container {
-		display: none;
+		/*display: none;*/
 	}
 	.flash-first-type-slide-texts-con {
 		top: 130px;
